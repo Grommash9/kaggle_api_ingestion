@@ -1,0 +1,55 @@
+name: Lint check and Test
+  
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - name: Set up Python
+      uses: actions/setup-python@v3
+      with:
+        python-version: '3.11'
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+    - name: Analysing the code with mypy, black and isort
+      run: |
+        isort --version
+        isort main.py --check
+        black --version
+        black main.py --check
+        mypy --version
+        mypy main.py
+
+  test:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - name: Set up Python
+      uses: actions/setup-python@v3
+      with:
+        python-version: '3.11'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+
+    - name: Run tests
+      run: |
+        pytest --version
+        coverage run -m pytest -vvv --cov-report=html -q
+    
+    - name: Upload HTML coverage report as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: backend-coverage-html
+          path: backend/htmlcov
