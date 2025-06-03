@@ -2,7 +2,7 @@
 requests
 pandas>=2.2,<3.0              # CSV/JSON parsing + chunked iterators
 python-dotenv>=1.0,<2.0       # .env config
-kagglehub=>0.3.12         # Kaggle Client to not reimplement existing functionality
+kagglehub>=0.3.12       # Kaggle Client to not reimplement existing functionality
 
 # ─── Test dependencies ───────────────────────────────────────────────────
 pytest>=8.1,<9.0
