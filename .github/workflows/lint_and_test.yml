@@ -27,7 +27,7 @@ jobs:
         black --version
         black main.py --check
         mypy --version
-        mypy main.py
+        mypy app
 
   test:
     runs-on: ubuntu-latest
@@ -46,7 +46,7 @@ jobs:
     - name: Run tests
       run: |
         pytest --version
-        coverage run -m pytest -vvv --cov-report=html -q
+        coverage run -m pytest -vvv --cov-report=html -q --cov=app
     
     - name: Upload HTML coverage report as artifact
       uses: actions/upload-artifact@v4
