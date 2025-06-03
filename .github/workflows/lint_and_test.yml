@@ -23,9 +23,9 @@ jobs:
     - name: Analysing the code with mypy, black and isort
       run: |
         isort --version
-        isort main.py --check
+        isort app --check
         black --version
-        black main.py --check
+        black app --check
         mypy --version
         mypy app
 
