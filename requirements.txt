@@ -1,0 +1,16 @@
+# ─── Core runtime ─────────────────────────────────────────────────────────
+requests
+pandas>=2.2,<3.0              # CSV/JSON parsing + chunked iterators
+python-dotenv>=1.0,<2.0       # .env config
+kagglehub=>0.3.12         # Kaggle Client to not reimplement existing functionality
+
+# ─── Test dependencies ───────────────────────────────────────────────────
+pytest>=8.1,<9.0
+pytest-cov>=5.0,<6.0
+factory-boy>=3.3,<4.0
+
+# ─── Dev / tooling (pre-commit) ───────────────────────────────────────────
+black>=24.3,<25.0
+isort>=5.13,<6.0
+mypy>=1.10,<2.0
+pre-commit>=3.7,<4.0
