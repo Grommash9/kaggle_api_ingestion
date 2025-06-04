@@ -55,5 +55,5 @@ jobs:
     - name: Upload HTML coverage report as artifact
       uses: actions/upload-artifact@v4
       with:
-        name: backend-coverage-html
-        path: backend/htmlcov
+        name: coverage-html
+        path: htmlcov
