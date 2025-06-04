@@ -1,0 +1,335 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.32.3
+    method: GET
+    uri: https://www.kaggle.com/api/v1/datasets/list?user=datasnaek
+  response:
+    body:
+      string: "[{\"subtitleNullable\":\"Daily statistics for trending YouTube videos\",\"creatorNameNullable\":\"Timo
+        Bozsolik\",\"creatorUrlNullable\":\"timoboz\",\"totalBytesNullable\":210575746,\"urlNullable\":\"https://www.kaggle.com/datasets/datasnaek/youtube-new\",\"licenseNameNullable\":\"CC0:
+        Public Domain\",\"descriptionNullable\":null,\"ownerNameNullable\":\"Mitchell
+        J\",\"ownerRefNullable\":\"datasnaek\",\"titleNullable\":\"Trending YouTube
+        Video Statistics\",\"currentVersionNumberNullable\":115,\"usabilityRatingNullable\":0.7941176,\"thumbnailImageUrlNullable\":\"https://storage.googleapis.com/kaggle-datasets-images/4549/9659/61ea143988e2f7db2ee9377cfdb6ffca/dataset-thumbnail.png?t=2017-12-10-18-00-59\",\"id\":4549,\"ref\":\"datasnaek/youtube-new\",\"subtitle\":\"Daily
+        statistics for trending YouTube videos\",\"hasSubtitle\":true,\"creatorName\":\"Timo
+        Bozsolik\",\"hasCreatorName\":true,\"creatorUrl\":\"timoboz\",\"hasCreatorUrl\":true,\"totalBytes\":210575746,\"hasTotalBytes\":true,\"url\":\"https://www.kaggle.com/datasets/datasnaek/youtube-new\",\"hasUrl\":true,\"lastUpdated\":\"2019-06-03T00:56:47.177Z\",\"downloadCount\":272511,\"isPrivate\":false,\"isFeatured\":false,\"licenseName\":\"CC0:
+        Public Domain\",\"hasLicenseName\":true,\"description\":\"\",\"hasDescription\":false,\"ownerName\":\"Mitchell
+        J\",\"hasOwnerName\":true,\"ownerRef\":\"datasnaek\",\"hasOwnerRef\":true,\"kernelCount\":4624,\"title\":\"Trending
+        YouTube Video Statistics\",\"hasTitle\":true,\"topicCount\":0,\"viewCount\":2044265,\"voteCount\":5675,\"currentVersionNumber\":115,\"hasCurrentVersionNumber\":true,\"usabilityRating\":0.7941176,\"hasUsabilityRating\":true,\"tags\":[{\"nameNullable\":\"languages\",\"descriptionNullable\":\"Language
+        is a method of communication that consists of using words arranged into meaningful
+        patterns. This is a good place to find natural language processing datasets
+        and kernels to study languages and train your chat bots.\",\"fullPathNullable\":\"subject
+        \\u003e culture and humanities \\u003e languages\",\"ref\":\"languages\",\"name\":\"languages\",\"hasName\":true,\"description\":\"Language
+        is a method of communication that consists of using words arranged into meaningful
+        patterns. This is a good place to find natural language processing datasets
+        and kernels to study languages and train your chat bots.\",\"hasDescription\":true,\"fullPath\":\"subject
+        \\u003e culture and humanities \\u003e languages\",\"hasFullPath\":true,\"competitionCount\":10,\"datasetCount\":908,\"scriptCount\":349,\"totalCount\":1267},{\"nameNullable\":\"popular
+        culture\",\"descriptionNullable\":\"Popular culture datasets and kernels are
+        associated with topics like TV shows, movies, music, and video games. The
+        greatest screenwriters come here to train their AI to write movie scripts.\",\"fullPathNullable\":\"subject
+        \\u003e culture and humanities \\u003e popular culture\",\"ref\":\"popular
+        culture\",\"name\":\"popular culture\",\"hasName\":true,\"description\":\"Popular
+        culture datasets and kernels are associated with topics like TV shows, movies,
+        music, and video games. The greatest screenwriters come here to train their
+        AI to write movie scripts.\",\"hasDescription\":true,\"fullPath\":\"subject
+        \\u003e culture and humanities \\u003e popular culture\",\"hasFullPath\":true,\"competitionCount\":0,\"datasetCount\":432,\"scriptCount\":90,\"totalCount\":522},{\"nameNullable\":\"arts
+        and entertainment\",\"descriptionNullable\":\"Activities that holds the attention
+        and interest of an audience, or gives pleasure and delight. It can be an idea
+        or a task, but is more likely to be one of the activities or events that have
+        developed over thousands of years specifically for the purpose of keeping
+        an audience\\u0027s attention.\",\"fullPathNullable\":\"subject \\u003e arts
+        and entertainment\",\"ref\":\"arts and entertainment\",\"name\":\"arts and
+        entertainment\",\"hasName\":true,\"description\":\"Activities that holds the
+        attention and interest of an audience, or gives pleasure and delight. It can
+        be an idea or a task, but is more likely to be one of the activities or events
+        that have developed over thousands of years specifically for the purpose of
+        keeping an audience\\u0027s attention.\",\"hasDescription\":true,\"fullPath\":\"subject
+        \\u003e arts and entertainment\",\"hasFullPath\":true,\"competitionCount\":3,\"datasetCount\":67050,\"scriptCount\":22775,\"totalCount\":89828},{\"nameNullable\":\"linguistics\",\"descriptionNullable\":\"The
+        linguistics tag contains datasets and kernels that you can use for text analytics,
+        sentiment analyses, and making clever jokes like this: Let me tell you a little
+        about myself. It\\u0027s a reflexive pronoun that means \\u0022me.\\u0022\",\"fullPathNullable\":\"subject
+        \\u003e people and society \\u003e social science \\u003e linguistics\",\"ref\":\"linguistics\",\"name\":\"linguistics\",\"hasName\":true,\"description\":\"The
+        linguistics tag contains datasets and kernels that you can use for text analytics,
+        sentiment analyses, and making clever jokes like this: Let me tell you a little
+        about myself. It\\u0027s a reflexive pronoun that means \\u0022me.\\u0022\",\"hasDescription\":true,\"fullPath\":\"subject
+        \\u003e people and society \\u003e social science \\u003e linguistics\",\"hasFullPath\":true,\"competitionCount\":29,\"datasetCount\":819,\"scriptCount\":191,\"totalCount\":1039},{\"nameNullable\":\"internet\",\"descriptionNullable\":\"An
+        interconnected network of tubes that connects the entire world together. This
+        tag covers a broad range of tags; anything from cryptocurrency to website
+        analytics.\",\"fullPathNullable\":\"subject \\u003e science and technology
+        \\u003e internet\",\"ref\":\"internet\",\"name\":\"internet\",\"hasName\":true,\"description\":\"An
+        interconnected network of tubes that connects the entire world together. This
+        tag covers a broad range of tags; anything from cryptocurrency to website
+        analytics.\",\"hasDescription\":true,\"fullPath\":\"subject \\u003e science
+        and technology \\u003e internet\",\"hasFullPath\":true,\"competitionCount\":19,\"datasetCount\":27840,\"scriptCount\":2617,\"totalCount\":30476}],\"files\":[],\"versions\":[],\"thumbnailImageUrl\":\"https://storage.googleapis.com/kaggle-datasets-images/4549/9659/61ea143988e2f7db2ee9377cfdb6ffca/dataset-thumbnail.png?t=2017-12-10-18-00-59\",\"hasThumbnailImageUrl\":true},{\"subtitleNullable\":\"20,000+
+        Lichess Games, including moves, victor, rating, opening details and more\",\"creatorNameNullable\":\"Mitchell
+        J\",\"creatorUrlNullable\":\"datasnaek\",\"totalBytesNullable\":2903760,\"urlNullable\":\"https://www.kaggle.com/datasets/datasnaek/chess\",\"licenseNameNullable\":\"CC0:
+        Public Domain\",\"descriptionNullable\":null,\"ownerNameNullable\":\"Mitchell
+        J\",\"ownerRefNullable\":\"datasnaek\",\"titleNullable\":\"Chess Game Dataset
+        (Lichess)\",\"currentVersionNumberNullable\":1,\"usabilityRatingNullable\":0.8235294,\"thumbnailImageUrlNullable\":\"https://storage.googleapis.com/kaggle-datasets-images/2321/3919/bcf55df8b88573b46e317c57f39abbe1/dataset-thumbnail.jpg\",\"id\":2321,\"ref\":\"datasnaek/chess\",\"subtitle\":\"20,000+
+        Lichess Games, including moves, victor, rating, opening details and more\",\"hasSubtitle\":true,\"creatorName\":\"Mitchell
+        J\",\"hasCreatorName\":true,\"creatorUrl\":\"datasnaek\",\"hasCreatorUrl\":true,\"totalBytes\":2903760,\"hasTotalBytes\":true,\"url\":\"https://www.kaggle.com/datasets/datasnaek/chess\",\"hasUrl\":true,\"lastUpdated\":\"2017-09-04T03:09:09.453Z\",\"downloadCount\":55081,\"isPrivate\":false,\"isFeatured\":false,\"licenseName\":\"CC0:
+        Public Domain\",\"hasLicenseName\":true,\"description\":\"\",\"hasDescription\":false,\"ownerName\":\"Mitchell
+        J\",\"hasOwnerName\":true,\"ownerRef\":\"datasnaek\",\"hasOwnerRef\":true,\"kernelCount\":4246,\"title\":\"Chess
+        Game Dataset (Lichess)\",\"hasTitle\":true,\"topicCount\":0,\"viewCount\":438712,\"voteCount\":1350,\"currentVersionNumber\":1,\"hasCurrentVersionNumber\":true,\"usabilityRating\":0.8235294,\"hasUsabilityRating\":true,\"tags\":[{\"nameNullable\":\"games\",\"descriptionNullable\":\"One
+        of the hallmarks of intelligence is the use of games and toys to occupy free
+        time and develop intellectually. Often stored in Mom\\u0027s basement.\",\"fullPathNullable\":\"subject
+        \\u003e culture and humanities \\u003e games\",\"ref\":\"games\",\"name\":\"games\",\"hasName\":true,\"description\":\"One
+        of the hallmarks of intelligence is the use of games and toys to occupy free
+        time and develop intellectually. Often stored in Mom\\u0027s basement.\",\"hasDescription\":true,\"fullPath\":\"subject
+        \\u003e culture and humanities \\u003e games\",\"hasFullPath\":true,\"competitionCount\":9,\"datasetCount\":10043,\"scriptCount\":34445,\"totalCount\":44497},{\"nameNullable\":\"board
+        games\",\"descriptionNullable\":\"A board game is a tabletop game that involves
+        counters or pieces moved or placed on a pre-marked surface or \\u0022board\\u0022,
+        according to a set of rules.\",\"fullPathNullable\":\"subject \\u003e culture
+        and humanities \\u003e games \\u003e board games\",\"ref\":\"board games\",\"name\":\"board
+        games\",\"hasName\":true,\"description\":\"A board game is a tabletop game
+        that involves counters or pieces moved or placed on a pre-marked surface or
+        \\u0022board\\u0022, according to a set of rules.\",\"hasDescription\":true,\"fullPath\":\"subject
+        \\u003e culture and humanities \\u003e games \\u003e board games\",\"hasFullPath\":true,\"competitionCount\":5,\"datasetCount\":376,\"scriptCount\":137,\"totalCount\":518},{\"nameNullable\":\"video
+        games\",\"descriptionNullable\":\"Video games were originally created to prevent
+        people from going to college and getting good jobs. That back-fired and now
+        we have data centers full of GPUs training models to tell the difference between
+        cats and dogs. All thanks to gamers.\",\"fullPathNullable\":\"subject \\u003e
+        culture and humanities \\u003e games \\u003e video games\",\"ref\":\"video
+        games\",\"name\":\"video games\",\"hasName\":true,\"description\":\"Video
+        games were originally created to prevent people from going to college and
+        getting good jobs. That back-fired and now we have data centers full of GPUs
+        training models to tell the difference between cats and dogs. All thanks to
+        gamers.\",\"hasDescription\":true,\"fullPath\":\"subject \\u003e culture and
+        humanities \\u003e games \\u003e video games\",\"hasFullPath\":true,\"competitionCount\":41,\"datasetCount\":8441,\"scriptCount\":3912,\"totalCount\":12394},{\"nameNullable\":\"internet\",\"descriptionNullable\":\"An
+        interconnected network of tubes that connects the entire world together. This
+        tag covers a broad range of tags; anything from cryptocurrency to website
+        analytics.\",\"fullPathNullable\":\"subject \\u003e science and technology
+        \\u003e internet\",\"ref\":\"internet\",\"name\":\"internet\",\"hasName\":true,\"description\":\"An
+        interconnected network of tubes that connects the entire world together. This
+        tag covers a broad range of tags; anything from cryptocurrency to website
+        analytics.\",\"hasDescription\":true,\"fullPath\":\"subject \\u003e science
+        and technology \\u003e internet\",\"hasFullPath\":true,\"competitionCount\":19,\"datasetCount\":27840,\"scriptCount\":2617,\"totalCount\":30476}],\"files\":[],\"versions\":[],\"thumbnailImageUrl\":\"https://storage.googleapis.com/kaggle-datasets-images/2321/3919/bcf55df8b88573b46e317c57f39abbe1/dataset-thumbnail.jpg\",\"hasThumbnailImageUrl\":true},{\"subtitleNullable\":\"Includes
+        a large number of people\\u0027s MBTI type and content written by them\",\"creatorNameNullable\":\"Mitchell
+        J\",\"creatorUrlNullable\":\"datasnaek\",\"totalBytesNullable\":25621004,\"urlNullable\":\"https://www.kaggle.com/datasets/datasnaek/mbti-type\",\"licenseNameNullable\":\"CC0:
+        Public Domain\",\"descriptionNullable\":null,\"ownerNameNullable\":\"Mitchell
+        J\",\"ownerRefNullable\":\"datasnaek\",\"titleNullable\":\"(MBTI) Myers-Briggs
+        Personality Type Dataset\",\"currentVersionNumberNullable\":1,\"usabilityRatingNullable\":0.88235295,\"thumbnailImageUrlNullable\":\"https://storage.googleapis.com/kaggle-datasets-images/2637/4381/9a5fe6914d6d0e727f1da36faaf27229/dataset-thumbnail.jpg\",\"id\":2637,\"ref\":\"datasnaek/mbti-type\",\"subtitle\":\"Includes
+        a large number of people\\u0027s MBTI type and content written by them\",\"hasSubtitle\":true,\"creatorName\":\"Mitchell
+        J\",\"hasCreatorName\":true,\"creatorUrl\":\"datasnaek\",\"hasCreatorUrl\":true,\"totalBytes\":25621004,\"hasTotalBytes\":true,\"url\":\"https://www.kaggle.com/datasets/datasnaek/mbti-type\",\"hasUrl\":true,\"lastUpdated\":\"2017-09-22T14:00:59.247Z\",\"downloadCount\":44572,\"isPrivate\":false,\"isFeatured\":false,\"licenseName\":\"CC0:
+        Public Domain\",\"hasLicenseName\":true,\"description\":\"\",\"hasDescription\":false,\"ownerName\":\"Mitchell
+        J\",\"hasOwnerName\":true,\"ownerRef\":\"datasnaek\",\"hasOwnerRef\":true,\"kernelCount\":120,\"title\":\"(MBTI)
+        Myers-Briggs Personality Type Dataset\",\"hasTitle\":true,\"topicCount\":0,\"viewCount\":505443,\"voteCount\":1200,\"currentVersionNumber\":1,\"hasCurrentVersionNumber\":true,\"usabilityRating\":0.88235295,\"hasUsabilityRating\":true,\"tags\":[{\"nameNullable\":\"demographics\",\"descriptionNullable\":\"Demographics
+        cover different aspects of life: youth, religion, housing, employment, taxes
+        and mortality. This tag contains census data that describe various populations
+        and communities.\",\"fullPathNullable\":\"subject \\u003e people and society
+        \\u003e social science \\u003e demographics\",\"ref\":\"demographics\",\"name\":\"demographics\",\"hasName\":true,\"description\":\"Demographics
+        cover different aspects of life: youth, religion, housing, employment, taxes
+        and mortality. This tag contains census data that describe various populations
+        and communities.\",\"hasDescription\":true,\"fullPath\":\"subject \\u003e
+        people and society \\u003e social science \\u003e demographics\",\"hasFullPath\":true,\"competitionCount\":1,\"datasetCount\":988,\"scriptCount\":329,\"totalCount\":1318},{\"nameNullable\":\"linguistics\",\"descriptionNullable\":\"The
+        linguistics tag contains datasets and kernels that you can use for text analytics,
+        sentiment analyses, and making clever jokes like this: Let me tell you a little
+        about myself. It\\u0027s a reflexive pronoun that means \\u0022me.\\u0022\",\"fullPathNullable\":\"subject
+        \\u003e people and society \\u003e social science \\u003e linguistics\",\"ref\":\"linguistics\",\"name\":\"linguistics\",\"hasName\":true,\"description\":\"The
+        linguistics tag contains datasets and kernels that you can use for text analytics,
+        sentiment analyses, and making clever jokes like this: Let me tell you a little
+        about myself. It\\u0027s a reflexive pronoun that means \\u0022me.\\u0022\",\"hasDescription\":true,\"fullPath\":\"subject
+        \\u003e people and society \\u003e social science \\u003e linguistics\",\"hasFullPath\":true,\"competitionCount\":29,\"datasetCount\":819,\"scriptCount\":191,\"totalCount\":1039},{\"nameNullable\":\"psychology\",\"descriptionNullable\":\"Psychology
+        is the study of how we use our brains (or don\\u0027t) to interact with others.
+        Humans are complicated and maybe data science can help us understand ourselves.\",\"fullPathNullable\":\"subject
+        \\u003e people and society \\u003e social science \\u003e psychology\",\"ref\":\"psychology\",\"name\":\"psychology\",\"hasName\":true,\"description\":\"Psychology
+        is the study of how we use our brains (or don\\u0027t) to interact with others.
+        Humans are complicated and maybe data science can help us understand ourselves.\",\"hasDescription\":true,\"fullPath\":\"subject
+        \\u003e people and society \\u003e social science \\u003e psychology\",\"hasFullPath\":true,\"competitionCount\":1,\"datasetCount\":3272,\"scriptCount\":365,\"totalCount\":3638},{\"nameNullable\":\"computer
+        science\",\"descriptionNullable\":\"There is one thing we can say for sure
+        about computer science: Computer science leads to more computer games which
+        leads to better GPUs which leads to smarter AI.\",\"fullPathNullable\":\"subject
+        \\u003e science and technology \\u003e computer science\",\"ref\":\"computer
+        science\",\"name\":\"computer science\",\"hasName\":true,\"description\":\"There
+        is one thing we can say for sure about computer science: Computer science
+        leads to more computer games which leads to better GPUs which leads to smarter
+        AI.\",\"hasDescription\":true,\"fullPath\":\"subject \\u003e science and technology
+        \\u003e computer science\",\"hasFullPath\":true,\"competitionCount\":7,\"datasetCount\":53615,\"scriptCount\":674,\"totalCount\":54296},{\"nameNullable\":\"internet\",\"descriptionNullable\":\"An
+        interconnected network of tubes that connects the entire world together. This
+        tag covers a broad range of tags; anything from cryptocurrency to website
+        analytics.\",\"fullPathNullable\":\"subject \\u003e science and technology
+        \\u003e internet\",\"ref\":\"internet\",\"name\":\"internet\",\"hasName\":true,\"description\":\"An
+        interconnected network of tubes that connects the entire world together. This
+        tag covers a broad range of tags; anything from cryptocurrency to website
+        analytics.\",\"hasDescription\":true,\"fullPath\":\"subject \\u003e science
+        and technology \\u003e internet\",\"hasFullPath\":true,\"competitionCount\":19,\"datasetCount\":27840,\"scriptCount\":2617,\"totalCount\":30476}],\"files\":[],\"versions\":[],\"thumbnailImageUrl\":\"https://storage.googleapis.com/kaggle-datasets-images/2637/4381/9a5fe6914d6d0e727f1da36faaf27229/dataset-thumbnail.jpg\",\"hasThumbnailImageUrl\":true},{\"subtitleNullable\":\"Details
+        from over 50,000 ranked games of LoL\",\"creatorNameNullable\":\"Mitchell
+        J\",\"creatorUrlNullable\":\"datasnaek\",\"totalBytesNullable\":3136041,\"urlNullable\":\"https://www.kaggle.com/datasets/datasnaek/league-of-legends\",\"licenseNameNullable\":\"CC0:
+        Public Domain\",\"descriptionNullable\":null,\"ownerNameNullable\":\"Mitchell
+        J\",\"ownerRefNullable\":\"datasnaek\",\"titleNullable\":\"(LoL) League of
+        Legends Ranked Games\",\"currentVersionNumberNullable\":9,\"usabilityRatingNullable\":0.7647059,\"thumbnailImageUrlNullable\":\"https://storage.googleapis.com/kaggle-datasets-images/2361/3969/ee60c15654eae898bf1f43039340a2c0/dataset-thumbnail.png\",\"id\":2361,\"ref\":\"datasnaek/league-of-legends\",\"subtitle\":\"Details
+        from over 50,000 ranked games of LoL\",\"hasSubtitle\":true,\"creatorName\":\"Mitchell
+        J\",\"hasCreatorName\":true,\"creatorUrl\":\"datasnaek\",\"hasCreatorUrl\":true,\"totalBytes\":3136041,\"hasTotalBytes\":true,\"url\":\"https://www.kaggle.com/datasets/datasnaek/league-of-legends\",\"hasUrl\":true,\"lastUpdated\":\"2017-09-22T19:03:04.927Z\",\"downloadCount\":14799,\"isPrivate\":false,\"isFeatured\":false,\"licenseName\":\"CC0:
+        Public Domain\",\"hasLicenseName\":true,\"description\":\"\",\"hasDescription\":false,\"ownerName\":\"Mitchell
+        J\",\"hasOwnerName\":true,\"ownerRef\":\"datasnaek\",\"hasOwnerRef\":true,\"kernelCount\":24,\"title\":\"(LoL)
+        League of Legends Ranked Games\",\"hasTitle\":true,\"topicCount\":0,\"viewCount\":139493,\"voteCount\":254,\"currentVersionNumber\":9,\"hasCurrentVersionNumber\":true,\"usabilityRating\":0.7647059,\"hasUsabilityRating\":true,\"tags\":[{\"nameNullable\":\"video
+        games\",\"descriptionNullable\":\"Video games were originally created to prevent
+        people from going to college and getting good jobs. That back-fired and now
+        we have data centers full of GPUs training models to tell the difference between
+        cats and dogs. All thanks to gamers.\",\"fullPathNullable\":\"subject \\u003e
+        culture and humanities \\u003e games \\u003e video games\",\"ref\":\"video
+        games\",\"name\":\"video games\",\"hasName\":true,\"description\":\"Video
+        games were originally created to prevent people from going to college and
+        getting good jobs. That back-fired and now we have data centers full of GPUs
+        training models to tell the difference between cats and dogs. All thanks to
+        gamers.\",\"hasDescription\":true,\"fullPath\":\"subject \\u003e culture and
+        humanities \\u003e games \\u003e video games\",\"hasFullPath\":true,\"competitionCount\":41,\"datasetCount\":8441,\"scriptCount\":3912,\"totalCount\":12394},{\"nameNullable\":\"internet\",\"descriptionNullable\":\"An
+        interconnected network of tubes that connects the entire world together. This
+        tag covers a broad range of tags; anything from cryptocurrency to website
+        analytics.\",\"fullPathNullable\":\"subject \\u003e science and technology
+        \\u003e internet\",\"ref\":\"internet\",\"name\":\"internet\",\"hasName\":true,\"description\":\"An
+        interconnected network of tubes that connects the entire world together. This
+        tag covers a broad range of tags; anything from cryptocurrency to website
+        analytics.\",\"hasDescription\":true,\"fullPath\":\"subject \\u003e science
+        and technology \\u003e internet\",\"hasFullPath\":true,\"competitionCount\":19,\"datasetCount\":27840,\"scriptCount\":2617,\"totalCount\":30476}],\"files\":[],\"versions\":[],\"thumbnailImageUrl\":\"https://storage.googleapis.com/kaggle-datasets-images/2361/3969/ee60c15654eae898bf1f43039340a2c0/dataset-thumbnail.png\",\"hasThumbnailImageUrl\":true},{\"subtitleNullable\":\"Daily
+        statistics (views, likes, category, comments+) for trending YouTube videos\",\"creatorNameNullable\":\"Mitchell
+        J\",\"creatorUrlNullable\":\"datasnaek\",\"totalBytesNullable\":58577493,\"urlNullable\":\"https://www.kaggle.com/datasets/datasnaek/youtube\",\"licenseNameNullable\":\"CC0:
+        Public Domain\",\"descriptionNullable\":null,\"ownerNameNullable\":\"Mitchell
+        J\",\"ownerRefNullable\":\"datasnaek\",\"titleNullable\":\"Trending YouTube
+        Video Statistics and Comments\",\"currentVersionNumberNullable\":24,\"usabilityRatingNullable\":0.7647059,\"thumbnailImageUrlNullable\":\"https://storage.googleapis.com/kaggle-datasets-images/2518/4206/61ea143988e2f7db2ee9377cfdb6ffca/dataset-thumbnail.png\",\"id\":2518,\"ref\":\"datasnaek/youtube\",\"subtitle\":\"Daily
+        statistics (views, likes, category, comments+) for trending YouTube videos\",\"hasSubtitle\":true,\"creatorName\":\"Mitchell
+        J\",\"hasCreatorName\":true,\"creatorUrl\":\"datasnaek\",\"hasCreatorUrl\":true,\"totalBytes\":58577493,\"hasTotalBytes\":true,\"url\":\"https://www.kaggle.com/datasets/datasnaek/youtube\",\"hasUrl\":true,\"lastUpdated\":\"2017-10-25T19:26:15.767Z\",\"downloadCount\":25580,\"isPrivate\":false,\"isFeatured\":false,\"licenseName\":\"CC0:
+        Public Domain\",\"hasLicenseName\":true,\"description\":\"\",\"hasDescription\":false,\"ownerName\":\"Mitchell
+        J\",\"hasOwnerName\":true,\"ownerRef\":\"datasnaek\",\"hasOwnerRef\":true,\"kernelCount\":35,\"title\":\"Trending
+        YouTube Video Statistics and Comments\",\"hasTitle\":true,\"topicCount\":0,\"viewCount\":222039,\"voteCount\":354,\"currentVersionNumber\":24,\"hasCurrentVersionNumber\":true,\"usabilityRating\":0.7647059,\"hasUsabilityRating\":true,\"tags\":[{\"nameNullable\":\"languages\",\"descriptionNullable\":\"Language
+        is a method of communication that consists of using words arranged into meaningful
+        patterns. This is a good place to find natural language processing datasets
+        and kernels to study languages and train your chat bots.\",\"fullPathNullable\":\"subject
+        \\u003e culture and humanities \\u003e languages\",\"ref\":\"languages\",\"name\":\"languages\",\"hasName\":true,\"description\":\"Language
+        is a method of communication that consists of using words arranged into meaningful
+        patterns. This is a good place to find natural language processing datasets
+        and kernels to study languages and train your chat bots.\",\"hasDescription\":true,\"fullPath\":\"subject
+        \\u003e culture and humanities \\u003e languages\",\"hasFullPath\":true,\"competitionCount\":10,\"datasetCount\":908,\"scriptCount\":349,\"totalCount\":1267},{\"nameNullable\":\"popular
+        culture\",\"descriptionNullable\":\"Popular culture datasets and kernels are
+        associated with topics like TV shows, movies, music, and video games. The
+        greatest screenwriters come here to train their AI to write movie scripts.\",\"fullPathNullable\":\"subject
+        \\u003e culture and humanities \\u003e popular culture\",\"ref\":\"popular
+        culture\",\"name\":\"popular culture\",\"hasName\":true,\"description\":\"Popular
+        culture datasets and kernels are associated with topics like TV shows, movies,
+        music, and video games. The greatest screenwriters come here to train their
+        AI to write movie scripts.\",\"hasDescription\":true,\"fullPath\":\"subject
+        \\u003e culture and humanities \\u003e popular culture\",\"hasFullPath\":true,\"competitionCount\":0,\"datasetCount\":432,\"scriptCount\":90,\"totalCount\":522},{\"nameNullable\":\"linguistics\",\"descriptionNullable\":\"The
+        linguistics tag contains datasets and kernels that you can use for text analytics,
+        sentiment analyses, and making clever jokes like this: Let me tell you a little
+        about myself. It\\u0027s a reflexive pronoun that means \\u0022me.\\u0022\",\"fullPathNullable\":\"subject
+        \\u003e people and society \\u003e social science \\u003e linguistics\",\"ref\":\"linguistics\",\"name\":\"linguistics\",\"hasName\":true,\"description\":\"The
+        linguistics tag contains datasets and kernels that you can use for text analytics,
+        sentiment analyses, and making clever jokes like this: Let me tell you a little
+        about myself. It\\u0027s a reflexive pronoun that means \\u0022me.\\u0022\",\"hasDescription\":true,\"fullPath\":\"subject
+        \\u003e people and society \\u003e social science \\u003e linguistics\",\"hasFullPath\":true,\"competitionCount\":29,\"datasetCount\":819,\"scriptCount\":191,\"totalCount\":1039},{\"nameNullable\":\"internet\",\"descriptionNullable\":\"An
+        interconnected network of tubes that connects the entire world together. This
+        tag covers a broad range of tags; anything from cryptocurrency to website
+        analytics.\",\"fullPathNullable\":\"subject \\u003e science and technology
+        \\u003e internet\",\"ref\":\"internet\",\"name\":\"internet\",\"hasName\":true,\"description\":\"An
+        interconnected network of tubes that connects the entire world together. This
+        tag covers a broad range of tags; anything from cryptocurrency to website
+        analytics.\",\"hasDescription\":true,\"fullPath\":\"subject \\u003e science
+        and technology \\u003e internet\",\"hasFullPath\":true,\"competitionCount\":19,\"datasetCount\":27840,\"scriptCount\":2617,\"totalCount\":30476},{\"nameNullable\":\"news\",\"descriptionNullable\":null,\"fullPathNullable\":\"subject
+        \\u003e people and society \\u003e news\",\"ref\":\"news\",\"name\":\"news\",\"hasName\":true,\"description\":\"\",\"hasDescription\":false,\"fullPath\":\"subject
+        \\u003e people and society \\u003e news\",\"hasFullPath\":true,\"competitionCount\":2,\"datasetCount\":15930,\"scriptCount\":3073,\"totalCount\":19005}],\"files\":[],\"versions\":[],\"thumbnailImageUrl\":\"https://storage.googleapis.com/kaggle-datasets-images/2518/4206/61ea143988e2f7db2ee9377cfdb6ffca/dataset-thumbnail.png\",\"hasThumbnailImageUrl\":true},{\"subtitleNullable\":\"13,000
+        Screen Caps Scraped from prnt.sc, Plus Description of How to Collect More\",\"creatorNameNullable\":\"Mitchell
+        J\",\"creatorUrlNullable\":\"datasnaek\",\"totalBytesNullable\":522605525,\"urlNullable\":\"https://www.kaggle.com/datasets/datasnaek/lightshot\",\"licenseNameNullable\":\"Data
+        files \xA9 Original Authors\",\"descriptionNullable\":null,\"ownerNameNullable\":\"Mitchell
+        J\",\"ownerRefNullable\":\"datasnaek\",\"titleNullable\":\"13,000 Screen Capture
+        Images + How to Get More\",\"currentVersionNumberNullable\":1,\"usabilityRatingNullable\":0.625,\"thumbnailImageUrlNullable\":\"https://storage.googleapis.com/kaggle-datasets-images/2285/3859/default-backgrounds/dataset-thumbnail.jpg\",\"id\":2285,\"ref\":\"datasnaek/lightshot\",\"subtitle\":\"13,000
+        Screen Caps Scraped from prnt.sc, Plus Description of How to Collect More\",\"hasSubtitle\":true,\"creatorName\":\"Mitchell
+        J\",\"hasCreatorName\":true,\"creatorUrl\":\"datasnaek\",\"hasCreatorUrl\":true,\"totalBytes\":522605525,\"hasTotalBytes\":true,\"url\":\"https://www.kaggle.com/datasets/datasnaek/lightshot\",\"hasUrl\":true,\"lastUpdated\":\"2017-08-31T02:08:59.577Z\",\"downloadCount\":2180,\"isPrivate\":false,\"isFeatured\":false,\"licenseName\":\"Data
+        files \xA9 Original Authors\",\"hasLicenseName\":true,\"description\":\"\",\"hasDescription\":false,\"ownerName\":\"Mitchell
+        J\",\"hasOwnerName\":true,\"ownerRef\":\"datasnaek\",\"hasOwnerRef\":true,\"kernelCount\":0,\"title\":\"13,000
+        Screen Capture Images + How to Get More\",\"hasTitle\":true,\"topicCount\":0,\"viewCount\":91578,\"voteCount\":38,\"currentVersionNumber\":1,\"hasCurrentVersionNumber\":true,\"usabilityRating\":0.625,\"hasUsabilityRating\":true,\"tags\":[{\"nameNullable\":\"arts
+        and entertainment\",\"descriptionNullable\":\"Activities that holds the attention
+        and interest of an audience, or gives pleasure and delight. It can be an idea
+        or a task, but is more likely to be one of the activities or events that have
+        developed over thousands of years specifically for the purpose of keeping
+        an audience\\u0027s attention.\",\"fullPathNullable\":\"subject \\u003e arts
+        and entertainment\",\"ref\":\"arts and entertainment\",\"name\":\"arts and
+        entertainment\",\"hasName\":true,\"description\":\"Activities that holds the
+        attention and interest of an audience, or gives pleasure and delight. It can
+        be an idea or a task, but is more likely to be one of the activities or events
+        that have developed over thousands of years specifically for the purpose of
+        keeping an audience\\u0027s attention.\",\"hasDescription\":true,\"fullPath\":\"subject
+        \\u003e arts and entertainment\",\"hasFullPath\":true,\"competitionCount\":3,\"datasetCount\":67050,\"scriptCount\":22775,\"totalCount\":89828},{\"nameNullable\":\"artificial
+        intelligence\",\"descriptionNullable\":\"This tag has datasets and kernels
+        where people come together and use cutting-edge research to train models on
+        pictures of cats.\",\"fullPathNullable\":\"subject \\u003e science and technology
+        \\u003e computer science \\u003e artificial intelligence\",\"ref\":\"artificial
+        intelligence\",\"name\":\"artificial intelligence\",\"hasName\":true,\"description\":\"This
+        tag has datasets and kernels where people come together and use cutting-edge
+        research to train models on pictures of cats.\",\"hasDescription\":true,\"fullPath\":\"subject
+        \\u003e science and technology \\u003e computer science \\u003e artificial
+        intelligence\",\"hasFullPath\":true,\"competitionCount\":54,\"datasetCount\":2661,\"scriptCount\":2748,\"totalCount\":5463},{\"nameNullable\":\"internet\",\"descriptionNullable\":\"An
+        interconnected network of tubes that connects the entire world together. This
+        tag covers a broad range of tags; anything from cryptocurrency to website
+        analytics.\",\"fullPathNullable\":\"subject \\u003e science and technology
+        \\u003e internet\",\"ref\":\"internet\",\"name\":\"internet\",\"hasName\":true,\"description\":\"An
+        interconnected network of tubes that connects the entire world together. This
+        tag covers a broad range of tags; anything from cryptocurrency to website
+        analytics.\",\"hasDescription\":true,\"fullPath\":\"subject \\u003e science
+        and technology \\u003e internet\",\"hasFullPath\":true,\"competitionCount\":19,\"datasetCount\":27840,\"scriptCount\":2617,\"totalCount\":30476},{\"nameNullable\":\"software\",\"descriptionNullable\":null,\"fullPathNullable\":\"subject
+        \\u003e science and technology \\u003e computer science \\u003e software\",\"ref\":\"software\",\"name\":\"software\",\"hasName\":true,\"description\":\"\",\"hasDescription\":false,\"fullPath\":\"subject
+        \\u003e science and technology \\u003e computer science \\u003e software\",\"hasFullPath\":true,\"competitionCount\":2,\"datasetCount\":18272,\"scriptCount\":11238,\"totalCount\":29512},{\"nameNullable\":\"online
+        communities\",\"descriptionNullable\":null,\"fullPathNullable\":\"subject
+        \\u003e science and technology \\u003e internet \\u003e online communities\",\"ref\":\"online
+        communities\",\"name\":\"online communities\",\"hasName\":true,\"description\":\"\",\"hasDescription\":false,\"fullPath\":\"subject
+        \\u003e science and technology \\u003e internet \\u003e online communities\",\"hasFullPath\":true,\"competitionCount\":3,\"datasetCount\":14144,\"scriptCount\":1258,\"totalCount\":15405}],\"files\":[],\"versions\":[],\"thumbnailImageUrl\":\"https://storage.googleapis.com/kaggle-datasets-images/2285/3859/default-backgrounds/dataset-thumbnail.jpg\",\"hasThumbnailImageUrl\":true}]"
+    headers:
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Origin:
+      - '*'
+      Alt-Svc:
+      - h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+      Content-Encoding:
+      - gzip
+      Content-Security-Policy:
+      - 'object-src ''none''; script-src ''nonce-qfXKxj7j8WsXkc8/Tl1ldA=='' ''report-sample''
+        ''unsafe-inline'' ''unsafe-eval'' ''strict-dynamic'' https: http:; base-uri
+        ''none''; report-uri https://csp.withgoogle.com/csp/kaggle/20201130; frame-src
+        ''self'' https://www.kaggleusercontent.com https://www.youtube.com/embed/
+        https://polygraph-cool.github.io https://www.google.com/recaptcha/ https://www.docdroid.com
+        https://www.docdroid.net https://kaggle-static.storage.googleapis.com https://kkb-production.jupyter-proxy.kaggle.net
+        https://kkb-production.firebaseapp.com https://kaggle-metastore.firebaseapp.com
+        https://apis.google.com https://content-sheets.googleapis.com/ https://accounts.google.com/
+        https://storage.googleapis.com https://docs.google.com https://drive.google.com
+        https://calendar.google.com/ https://google.qualtrics.com/ ;'
+      Content-Type:
+      - application/json
+      Date:
+      - Wed, 04 Jun 2025 14:17:19 GMT
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Set-Cookie:
+      - ka_sessionid=52f6c27183214be1adf0aed6817beb10; max-age=2626560; path=/
+      - GCLB=CJvJ6Lnwwo-3sgEQAw; path=/; HttpOnly
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubDomains; preload
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding
+      Via:
+      - 1.1 google
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Kaggle-ApiVersion:
+      - 1.7.4.2
+      X-Kaggle-HubVersion:
+      - 0.3.12
+      X-Kaggle-MillisecondsElapsed:
+      - '133'
+      X-Kaggle-RequestId:
+      - b7a56e1d8470e1cb8d5d7a5ddc3fedb3
+    status:
+      code: 200
+      message: OK
+version: 1

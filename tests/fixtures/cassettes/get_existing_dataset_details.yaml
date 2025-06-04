@@ -1,0 +1,228 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.32.3
+    method: GET
+    uri: https://www.kaggle.com/api/v1/datasets/view/datasnaek/youtube-new
+  response:
+    body:
+      string: "{\"subtitleNullable\":\"Daily statistics for trending YouTube videos\",\"creatorNameNullable\":\"Timo
+        Bozsolik\",\"creatorUrlNullable\":null,\"totalBytesNullable\":539220890,\"urlNullable\":null,\"licenseNameNullable\":\"CC0:
+        Public Domain\",\"descriptionNullable\":\"UPDATE: Source code used for collecting
+        this data [released here](https://github.com/DataSnaek/Trending-YouTube-Scraper)\\n\\n###
+        Context\\n\\nYouTube (the world-famous video sharing website) maintains a
+        list of the [top trending videos](https://www.youtube.com/feed/trending) on
+        the platform. [According to Variety magazine](http://variety.com/2017/digital/news/youtube-2017-top-trending-videos-music-videos-1202631416/),
+        \u201CTo determine the year\u2019s top-trending videos, YouTube uses a combination
+        of factors including measuring users interactions (number of views, shares,
+        comments and likes). Note that they\u2019re not the most-viewed videos overall
+        for the calendar year\u201D. Top performers on the YouTube trending list are
+        music videos (such as the famously virile \u201CGangam Style\u201D), celebrity
+        and/or reality TV performances, and the random dude-with-a-camera viral videos
+        that YouTube is well-known for.\\n\\nThis dataset is a daily record of the
+        top trending YouTube videos.\\n\\nNote that this dataset is a structurally
+        improved version of [this dataset](https://www.kaggle.com/datasnaek/youtube).\\n\\n###
+        Content\\n\\nThis dataset includes several months (and counting) of data on
+        daily trending YouTube videos. Data is included for the US, GB, DE, CA, and
+        FR regions (USA, Great Britain, Germany, Canada, and France, respectively),
+        with up to 200 listed trending videos per day.\\n\\nEDIT: Now includes data
+        from RU, MX, KR, JP and IN regions (Russia, Mexico, South Korea, Japan and
+        India respectively) over the same time period.  \\n\\nEach region\u2019s data
+        is in a separate file. Data includes the video title, channel title, publish
+        time, tags, views, likes and dislikes, description, and comment count.\\n\\nThe
+        data also includes a `category_id` field, which varies between regions. To
+        retrieve the categories for a specific video, find it in the associated `JSON`.
+        One such file is included for each of the five regions in the dataset.\\n\\nFor
+        more information on specific columns in the dataset refer to the [column metadata](https://www.kaggle.com/datasnaek/youtube-new/data).\\n\\n###
+        Acknowledgements\\n\\nThis dataset was collected using the YouTube API.\\n\\n###
+        Inspiration\\n\\nPossible uses for this dataset could include:\\n\\n* Sentiment
+        analysis in a variety of forms\\n* Categorising YouTube videos based on their
+        comments and statistics.\\n* Training ML algorithms like RNNs to generate
+        their own YouTube comments.\\n* Analysing what factors affect how popular
+        a YouTube video will be.\\n* Statistical analysis over time\\f.\\n\\nFor further
+        inspiration, see the kernels on this dataset!\",\"ownerNameNullable\":\"Mitchell
+        J\",\"ownerRefNullable\":\"datasnaek\",\"titleNullable\":\"Trending YouTube
+        Video Statistics\",\"currentVersionNumberNullable\":115,\"usabilityRatingNullable\":0.7941176,\"thumbnailImageUrlNullable\":null,\"id\":4549,\"ref\":\"datasnaek/youtube-new\",\"subtitle\":\"Daily
+        statistics for trending YouTube videos\",\"hasSubtitle\":true,\"creatorName\":\"Timo
+        Bozsolik\",\"hasCreatorName\":true,\"creatorUrl\":\"\",\"hasCreatorUrl\":false,\"totalBytes\":539220890,\"hasTotalBytes\":true,\"url\":\"\",\"hasUrl\":false,\"lastUpdated\":\"2019-06-03T00:56:47.177Z\",\"downloadCount\":272511,\"isPrivate\":false,\"isFeatured\":false,\"licenseName\":\"CC0:
+        Public Domain\",\"hasLicenseName\":true,\"description\":\"UPDATE: Source code
+        used for collecting this data [released here](https://github.com/DataSnaek/Trending-YouTube-Scraper)\\n\\n###
+        Context\\n\\nYouTube (the world-famous video sharing website) maintains a
+        list of the [top trending videos](https://www.youtube.com/feed/trending) on
+        the platform. [According to Variety magazine](http://variety.com/2017/digital/news/youtube-2017-top-trending-videos-music-videos-1202631416/),
+        \u201CTo determine the year\u2019s top-trending videos, YouTube uses a combination
+        of factors including measuring users interactions (number of views, shares,
+        comments and likes). Note that they\u2019re not the most-viewed videos overall
+        for the calendar year\u201D. Top performers on the YouTube trending list are
+        music videos (such as the famously virile \u201CGangam Style\u201D), celebrity
+        and/or reality TV performances, and the random dude-with-a-camera viral videos
+        that YouTube is well-known for.\\n\\nThis dataset is a daily record of the
+        top trending YouTube videos.\\n\\nNote that this dataset is a structurally
+        improved version of [this dataset](https://www.kaggle.com/datasnaek/youtube).\\n\\n###
+        Content\\n\\nThis dataset includes several months (and counting) of data on
+        daily trending YouTube videos. Data is included for the US, GB, DE, CA, and
+        FR regions (USA, Great Britain, Germany, Canada, and France, respectively),
+        with up to 200 listed trending videos per day.\\n\\nEDIT: Now includes data
+        from RU, MX, KR, JP and IN regions (Russia, Mexico, South Korea, Japan and
+        India respectively) over the same time period.  \\n\\nEach region\u2019s data
+        is in a separate file. Data includes the video title, channel title, publish
+        time, tags, views, likes and dislikes, description, and comment count.\\n\\nThe
+        data also includes a `category_id` field, which varies between regions. To
+        retrieve the categories for a specific video, find it in the associated `JSON`.
+        One such file is included for each of the five regions in the dataset.\\n\\nFor
+        more information on specific columns in the dataset refer to the [column metadata](https://www.kaggle.com/datasnaek/youtube-new/data).\\n\\n###
+        Acknowledgements\\n\\nThis dataset was collected using the YouTube API.\\n\\n###
+        Inspiration\\n\\nPossible uses for this dataset could include:\\n\\n* Sentiment
+        analysis in a variety of forms\\n* Categorising YouTube videos based on their
+        comments and statistics.\\n* Training ML algorithms like RNNs to generate
+        their own YouTube comments.\\n* Analysing what factors affect how popular
+        a YouTube video will be.\\n* Statistical analysis over time\\f.\\n\\nFor further
+        inspiration, see the kernels on this dataset!\",\"hasDescription\":true,\"ownerName\":\"Mitchell
+        J\",\"hasOwnerName\":true,\"ownerRef\":\"datasnaek\",\"hasOwnerRef\":true,\"kernelCount\":4624,\"title\":\"Trending
+        YouTube Video Statistics\",\"hasTitle\":true,\"topicCount\":57,\"viewCount\":2044270,\"voteCount\":2044270,\"currentVersionNumber\":115,\"hasCurrentVersionNumber\":true,\"usabilityRating\":0.7941176,\"hasUsabilityRating\":true,\"tags\":[{\"nameNullable\":\"arts
+        and entertainment\",\"descriptionNullable\":\"Activities that holds the attention
+        and interest of an audience, or gives pleasure and delight. It can be an idea
+        or a task, but is more likely to be one of the activities or events that have
+        developed over thousands of years specifically for the purpose of keeping
+        an audience\\u0027s attention.\",\"fullPathNullable\":\"subject \\u003e arts
+        and entertainment\",\"ref\":\"arts and entertainment\",\"name\":\"arts and
+        entertainment\",\"hasName\":true,\"description\":\"Activities that holds the
+        attention and interest of an audience, or gives pleasure and delight. It can
+        be an idea or a task, but is more likely to be one of the activities or events
+        that have developed over thousands of years specifically for the purpose of
+        keeping an audience\\u0027s attention.\",\"hasDescription\":true,\"fullPath\":\"subject
+        \\u003e arts and entertainment\",\"hasFullPath\":true,\"competitionCount\":3,\"datasetCount\":67049,\"scriptCount\":22775,\"totalCount\":89827},{\"nameNullable\":\"internet\",\"descriptionNullable\":\"An
+        interconnected network of tubes that connects the entire world together. This
+        tag covers a broad range of tags; anything from cryptocurrency to website
+        analytics.\",\"fullPathNullable\":\"subject \\u003e science and technology
+        \\u003e internet\",\"ref\":\"internet\",\"name\":\"internet\",\"hasName\":true,\"description\":\"An
+        interconnected network of tubes that connects the entire world together. This
+        tag covers a broad range of tags; anything from cryptocurrency to website
+        analytics.\",\"hasDescription\":true,\"fullPath\":\"subject \\u003e science
+        and technology \\u003e internet\",\"hasFullPath\":true,\"competitionCount\":19,\"datasetCount\":27840,\"scriptCount\":2617,\"totalCount\":30476},{\"nameNullable\":\"languages\",\"descriptionNullable\":\"Language
+        is a method of communication that consists of using words arranged into meaningful
+        patterns. This is a good place to find natural language processing datasets
+        and kernels to study languages and train your chat bots.\",\"fullPathNullable\":\"subject
+        \\u003e culture and humanities \\u003e languages\",\"ref\":\"languages\",\"name\":\"languages\",\"hasName\":true,\"description\":\"Language
+        is a method of communication that consists of using words arranged into meaningful
+        patterns. This is a good place to find natural language processing datasets
+        and kernels to study languages and train your chat bots.\",\"hasDescription\":true,\"fullPath\":\"subject
+        \\u003e culture and humanities \\u003e languages\",\"hasFullPath\":true,\"competitionCount\":10,\"datasetCount\":908,\"scriptCount\":349,\"totalCount\":1267},{\"nameNullable\":\"linguistics\",\"descriptionNullable\":\"The
+        linguistics tag contains datasets and kernels that you can use for text analytics,
+        sentiment analyses, and making clever jokes like this: Let me tell you a little
+        about myself. It\\u0027s a reflexive pronoun that means \\u0022me.\\u0022\",\"fullPathNullable\":\"subject
+        \\u003e people and society \\u003e social science \\u003e linguistics\",\"ref\":\"linguistics\",\"name\":\"linguistics\",\"hasName\":true,\"description\":\"The
+        linguistics tag contains datasets and kernels that you can use for text analytics,
+        sentiment analyses, and making clever jokes like this: Let me tell you a little
+        about myself. It\\u0027s a reflexive pronoun that means \\u0022me.\\u0022\",\"hasDescription\":true,\"fullPath\":\"subject
+        \\u003e people and society \\u003e social science \\u003e linguistics\",\"hasFullPath\":true,\"competitionCount\":29,\"datasetCount\":819,\"scriptCount\":191,\"totalCount\":1039},{\"nameNullable\":\"popular
+        culture\",\"descriptionNullable\":\"Popular culture datasets and kernels are
+        associated with topics like TV shows, movies, music, and video games. The
+        greatest screenwriters come here to train their AI to write movie scripts.\",\"fullPathNullable\":\"subject
+        \\u003e culture and humanities \\u003e popular culture\",\"ref\":\"popular
+        culture\",\"name\":\"popular culture\",\"hasName\":true,\"description\":\"Popular
+        culture datasets and kernels are associated with topics like TV shows, movies,
+        music, and video games. The greatest screenwriters come here to train their
+        AI to write movie scripts.\",\"hasDescription\":true,\"fullPath\":\"subject
+        \\u003e culture and humanities \\u003e popular culture\",\"hasFullPath\":true,\"competitionCount\":0,\"datasetCount\":432,\"scriptCount\":90,\"totalCount\":522}],\"files\":[],\"versions\":[{\"creatorNameNullable\":\"Timo
+        Bozsolik\",\"creatorRefNullable\":\"youtube-new\",\"versionNotesNullable\":\"Reprocessed
+        files to remove errors\",\"statusNullable\":\"Ready\",\"versionNumber\":115,\"creationDate\":\"2019-06-03T00:56:47.177Z\",\"creatorName\":\"Timo
+        Bozsolik\",\"hasCreatorName\":true,\"creatorRef\":\"youtube-new\",\"hasCreatorRef\":true,\"versionNotes\":\"Reprocessed
+        files to remove errors\",\"hasVersionNotes\":true,\"status\":\"Ready\",\"hasStatus\":true},{\"creatorNameNullable\":\"Mitchell
+        J\",\"creatorRefNullable\":\"youtube-new\",\"versionNotesNullable\":\"Added
+        data for 5 new countries over the same time period\",\"statusNullable\":\"Ready\",\"versionNumber\":114,\"creationDate\":\"2018-11-20T16:57:05.467Z\",\"creatorName\":\"Mitchell
+        J\",\"hasCreatorName\":true,\"creatorRef\":\"youtube-new\",\"hasCreatorRef\":true,\"versionNotes\":\"Added
+        data for 5 new countries over the same time period\",\"hasVersionNotes\":true,\"status\":\"Ready\",\"hasStatus\":true},{\"creatorNameNullable\":\"Mitchell
+        J\",\"creatorRefNullable\":\"youtube-new\",\"versionNotesNullable\":\"Added
+        new days worth of data\",\"statusNullable\":\"Ready\",\"versionNumber\":113,\"creationDate\":\"2018-06-14T08:05:12.087Z\",\"creatorName\":\"Mitchell
+        J\",\"hasCreatorName\":true,\"creatorRef\":\"youtube-new\",\"hasCreatorRef\":true,\"versionNotes\":\"Added
+        new days worth of data\",\"hasVersionNotes\":true,\"status\":\"Ready\",\"hasStatus\":true},{\"creatorNameNullable\":\"Mitchell
+        J\",\"creatorRefNullable\":\"youtube-new\",\"versionNotesNullable\":\"Added
+        new days worth of data\",\"statusNullable\":\"Ready\",\"versionNumber\":112,\"creationDate\":\"2018-06-13T08:05:07.68Z\",\"creatorName\":\"Mitchell
+        J\",\"hasCreatorName\":true,\"creatorRef\":\"youtube-new\",\"hasCreatorRef\":true,\"versionNotes\":\"Added
+        new days worth of data\",\"hasVersionNotes\":true,\"status\":\"Ready\",\"hasStatus\":true},{\"creatorNameNullable\":\"Mitchell
+        J\",\"creatorRefNullable\":\"youtube-new\",\"versionNotesNullable\":\"Added
+        new days worth of data\",\"statusNullable\":\"Ready\",\"versionNumber\":111,\"creationDate\":\"2018-06-12T08:05:10.257Z\",\"creatorName\":\"Mitchell
+        J\",\"hasCreatorName\":true,\"creatorRef\":\"youtube-new\",\"hasCreatorRef\":true,\"versionNotes\":\"Added
+        new days worth of data\",\"hasVersionNotes\":true,\"status\":\"Ready\",\"hasStatus\":true},{\"creatorNameNullable\":\"Mitchell
+        J\",\"creatorRefNullable\":\"youtube-new\",\"versionNotesNullable\":\"Added
+        new days worth of data\",\"statusNullable\":\"Ready\",\"versionNumber\":110,\"creationDate\":\"2018-06-11T08:05:19.167Z\",\"creatorName\":\"Mitchell
+        J\",\"hasCreatorName\":true,\"creatorRef\":\"youtube-new\",\"hasCreatorRef\":true,\"versionNotes\":\"Added
+        new days worth of data\",\"hasVersionNotes\":true,\"status\":\"Ready\",\"hasStatus\":true},{\"creatorNameNullable\":\"Mitchell
+        J\",\"creatorRefNullable\":\"youtube-new\",\"versionNotesNullable\":\"Added
+        new days worth of data\",\"statusNullable\":\"Ready\",\"versionNumber\":109,\"creationDate\":\"2018-06-10T21:51:04.61Z\",\"creatorName\":\"Mitchell
+        J\",\"hasCreatorName\":true,\"creatorRef\":\"youtube-new\",\"hasCreatorRef\":true,\"versionNotes\":\"Added
+        new days worth of data\",\"hasVersionNotes\":true,\"status\":\"Ready\",\"hasStatus\":true},{\"creatorNameNullable\":\"Mitchell
+        J\",\"creatorRefNullable\":\"youtube-new\",\"versionNotesNullable\":\"Added
+        new days worth of data\",\"statusNullable\":\"Ready\",\"versionNumber\":108,\"creationDate\":\"2018-06-09T08:05:13.393Z\",\"creatorName\":\"Mitchell
+        J\",\"hasCreatorName\":true,\"creatorRef\":\"youtube-new\",\"hasCreatorRef\":true,\"versionNotes\":\"Added
+        new days worth of data\",\"hasVersionNotes\":true,\"status\":\"Ready\",\"hasStatus\":true},{\"creatorNameNullable\":\"Mitchell
+        J\",\"creatorRefNullable\":\"youtube-new\",\"versionNotesNullable\":\"Added
+        new days worth of data\",\"statusNullable\":\"Ready\",\"versionNumber\":107,\"creationDate\":\"2018-06-08T10:29:56.27Z\",\"creatorName\":\"Mitchell
+        J\",\"hasCreatorName\":true,\"creatorRef\":\"youtube-new\",\"hasCreatorRef\":true,\"versionNotes\":\"Added
+        new days worth of data\",\"hasVersionNotes\":true,\"status\":\"Ready\",\"hasStatus\":true},{\"creatorNameNullable\":\"Mitchell
+        J\",\"creatorRefNullable\":\"youtube-new\",\"versionNotesNullable\":\"Added
+        new days worth of data\",\"statusNullable\":\"Ready\",\"versionNumber\":106,\"creationDate\":\"2018-06-07T11:31:54.31Z\",\"creatorName\":\"Mitchell
+        J\",\"hasCreatorName\":true,\"creatorRef\":\"youtube-new\",\"hasCreatorRef\":true,\"versionNotes\":\"Added
+        new days worth of data\",\"hasVersionNotes\":true,\"status\":\"Ready\",\"hasStatus\":true}],\"thumbnailImageUrl\":\"\",\"hasThumbnailImageUrl\":false}"
+    headers:
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Origin:
+      - '*'
+      Alt-Svc:
+      - h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+      Content-Encoding:
+      - gzip
+      Content-Security-Policy:
+      - 'object-src ''none''; script-src ''nonce-RWclC7odtnGV7t6/QRhZ/Q=='' ''report-sample''
+        ''unsafe-inline'' ''unsafe-eval'' ''strict-dynamic'' https: http:; base-uri
+        ''none''; report-uri https://csp.withgoogle.com/csp/kaggle/20201130; frame-src
+        ''self'' https://www.kaggleusercontent.com https://www.youtube.com/embed/
+        https://polygraph-cool.github.io https://www.google.com/recaptcha/ https://www.docdroid.com
+        https://www.docdroid.net https://kaggle-static.storage.googleapis.com https://kkb-production.jupyter-proxy.kaggle.net
+        https://kkb-production.firebaseapp.com https://kaggle-metastore.firebaseapp.com
+        https://apis.google.com https://content-sheets.googleapis.com/ https://accounts.google.com/
+        https://storage.googleapis.com https://docs.google.com https://drive.google.com
+        https://calendar.google.com/ https://google.qualtrics.com/ ;'
+      Content-Type:
+      - application/json
+      Date:
+      - Wed, 04 Jun 2025 14:22:06 GMT
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Set-Cookie:
+      - ka_sessionid=f556aeb7665eb325d8c4e61b5c7f5f05; max-age=2626560; path=/
+      - GCLB=CJim5OW2goD4rQEQAw; path=/; HttpOnly
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubDomains; preload
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding
+      Via:
+      - 1.1 google
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Kaggle-ApiVersion:
+      - 1.7.4.2
+      X-Kaggle-HubVersion:
+      - 0.3.12
+      X-Kaggle-MillisecondsElapsed:
+      - '88'
+      X-Kaggle-RequestId:
+      - ed80fd6096ee1bbfa2e3921921476424
+    status:
+      code: 200
+      message: OK
+version: 1

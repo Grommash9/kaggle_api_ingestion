@@ -3,6 +3,9 @@ requests
 pandas>=2.2,<3.0              # CSV/JSON parsing + chunked iterators
 python-dotenv>=1.0,<2.0       # .env config
 kagglehub>=0.3.12       # Kaggle Client to not reimplement existing functionality
+structlog>=25.4.0,<26.0
+matplotlib>=3.9,<4.0
+seaborn>=0.13.2,<0.14.0
 
 # ─── Test dependencies ───────────────────────────────────────────────────
 pytest>=8.1,<9.0
@@ -14,3 +17,4 @@ black>=24.3,<25.0
 isort>=5.13,<6.0
 mypy>=1.10,<2.0
 pre-commit>=3.7,<4.0
+vcrpy>=7.0.0,<8.0.0

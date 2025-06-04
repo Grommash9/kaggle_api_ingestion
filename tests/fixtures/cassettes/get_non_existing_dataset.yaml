@@ -1,0 +1,70 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.32.3
+    method: GET
+    uri: https://www.kaggle.com/api/v1/datasets/view/datasnaek/non-existing-dataset
+  response:
+    body:
+      string: '{"code":403,"message":"Permission \u0027datasets.get\u0027 was denied"}'
+    headers:
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Origin:
+      - '*'
+      Alt-Svc:
+      - h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+      Content-Encoding:
+      - gzip
+      Content-Security-Policy:
+      - 'object-src ''none''; script-src ''nonce-HS2TSejgSX8z9ROMI0z/kA=='' ''report-sample''
+        ''unsafe-inline'' ''unsafe-eval'' ''strict-dynamic'' https: http:; base-uri
+        ''none''; report-uri https://csp.withgoogle.com/csp/kaggle/20201130; frame-src
+        ''self'' https://www.kaggleusercontent.com https://www.youtube.com/embed/
+        https://polygraph-cool.github.io https://www.google.com/recaptcha/ https://www.docdroid.com
+        https://www.docdroid.net https://kaggle-static.storage.googleapis.com https://kkb-production.jupyter-proxy.kaggle.net
+        https://kkb-production.firebaseapp.com https://kaggle-metastore.firebaseapp.com
+        https://apis.google.com https://content-sheets.googleapis.com/ https://accounts.google.com/
+        https://storage.googleapis.com https://docs.google.com https://drive.google.com
+        https://calendar.google.com/ https://google.qualtrics.com/ ;'
+      Content-Type:
+      - application/json
+      Date:
+      - Wed, 04 Jun 2025 14:18:23 GMT
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Set-Cookie:
+      - ka_sessionid=67c58077046693ba62e02ba3bde4f455; max-age=2626560; path=/
+      - GCLB=CLiM0YbG3ovKxwEQAw; path=/; HttpOnly
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubDomains; preload
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding
+      Via:
+      - 1.1 google
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Kaggle-ApiVersion:
+      - 1.7.4.2
+      X-Kaggle-HubVersion:
+      - 0.3.12
+      X-Kaggle-MillisecondsElapsed:
+      - '3'
+      X-Kaggle-RequestId:
+      - 8ff1f4fdf2c8193963169d7f9a472e5d
+    status:
+      code: 403
+      message: Forbidden
+version: 1
