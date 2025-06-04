@@ -9,6 +9,8 @@ on:
 jobs:
 
   lint:
+    env:
+      PYTHONPATH: .
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v4
@@ -30,6 +32,8 @@ jobs:
         mypy app
 
   test:
+    env:
+      PYTHONPATH: .
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v4

@@ -1,6 +1,6 @@
 import vcr
-from app.config import VCR_RECORD_MODE
 
+from app.config import VCR_RECORD_MODE
 
 vcr_c = vcr.VCR(
     cassette_library_dir="tests/fixtures/cassettes",

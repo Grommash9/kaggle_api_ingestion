@@ -8,7 +8,7 @@ import requests
 import structlog
 from requests.auth import HTTPBasicAuth
 
-from config import API_BASE_URL
+from app.config import API_BASE_URL
 
 structlog.configure(processors=[structlog.processors.JSONRenderer()])
 

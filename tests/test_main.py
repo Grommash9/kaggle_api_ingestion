@@ -1,14 +1,18 @@
-from app.main_without_lib import get_dataset_details, get_datasets_by_owner
-from tests.conftest import vcr_c
-from requests.auth import HTTPBasicAuth
-from app.config import API_BASE_URL
-import pytest
-from requests.exceptions import HTTPError
-from app.main_without_lib import check_if_overwrite_is_needed
 import os
-import pytest
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
-from datetime import datetime, timezone, timedelta
+
+import pytest
+from requests.auth import HTTPBasicAuth
+from requests.exceptions import HTTPError
+
+from app.config import API_BASE_URL
+from app.main_without_lib import (
+    check_if_overwrite_is_needed,
+    get_dataset_details,
+    get_datasets_by_owner,
+)
+from tests.conftest import vcr_c
 
 CONTENT = b"hello world"
 
@@ -20,11 +24,12 @@ def test_get_existing_datasets_by_owner():
     basic = HTTPBasicAuth("any", "any")
     # I have added auth to codebase but it's actually not used anyhow so I am assuming that is outdated
     dataset_list = get_datasets_by_owner(API_BASE_URL, owner_slug, basic)
-    
+
     datasets_refs = [dataset.ref for dataset in dataset_list]
-    assert f"{owner_slug}/{dataset_slug}" in datasets_refs, (
-        f"Dataset {owner_slug}/{dataset_slug} not found in the list of datasets for owner {owner_slug}"
-    )
+    assert (
+        f"{owner_slug}/{dataset_slug}" in datasets_refs
+    ), f"Dataset {owner_slug}/{dataset_slug} not found in the list of datasets for owner {owner_slug}"
+
 
 @vcr_c.use_cassette("get_non_existing_dataset.yaml")
 def test_get_non_existing_dataset():
@@ -46,17 +51,18 @@ def test_get_existing_dataset_details():
     assert dataset_details.ref == f"{owner_slug}/{dataset_slug}"
 
 
-
-
 def write_test_file(path: Path, content: bytes, mtime: datetime):
     path.write_bytes(content)
     mod_time = mtime.timestamp()
     os.utime(path, times=(mod_time, mod_time))
 
+
 # https://docs.pytest.org/en/6.2.x/tmpdir.html
 def test_overwrite_needed_when_file_does_not_exist(tmp_path):
     archive_path = Path(tmp_path) / "archive" / "file.txt"
-    result = check_if_overwrite_is_needed(str(archive_path), datetime.now(timezone.utc), 123)
+    result = check_if_overwrite_is_needed(
+        str(archive_path), datetime.now(timezone.utc), 123
+    )
     assert result is True
 
 
