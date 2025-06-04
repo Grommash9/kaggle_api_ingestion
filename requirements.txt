@@ -18,3 +18,6 @@ isort>=5.13,<6.0
 mypy>=1.10,<2.0
 pre-commit>=3.7,<4.0
 vcrpy>=7.0.0,<8.0.0
+types-requests # to make mypy happy
+types-seaborn
+pandas-stubs
